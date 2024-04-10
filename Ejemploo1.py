@@ -1,11 +1,11 @@
-x = 10
-y = 5
-z = x + y
+PrimerNumero = 10
+SegundoNumero = 5
+Operacion = PrimerNumero + SegundoNumero
 
-def multiplicar(a, b):
-    return a * b
+def multiplicar(PrimerFactor, SegundoFactor):
+    return PrimerFactor * SegundoFactor
 
-resultado = multiplicar(x, z)
+resultado = multiplicar(PrimerNumero, Operacion)
 
 
 print("El resultado es:", resultado)
