@@ -1,5 +1,7 @@
-PrimerNumero = 10
-SegundoNumero = 5
+PrimerNumero = float(input("Ingrese el primer número: "))
+
+SegundoNumero = float(input("Ingrese el segundo número: "))
+
 Operacion = PrimerNumero + SegundoNumero
 
 def multiplicar(PrimerFactor, SegundoFactor):
@@ -7,5 +9,5 @@ def multiplicar(PrimerFactor, SegundoFactor):
 
 resultado = multiplicar(PrimerNumero, Operacion)
 
-
 print("El resultado es:", resultado)
+
